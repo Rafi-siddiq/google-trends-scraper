@@ -78,6 +78,16 @@ You pay only for keywords that return data. Failed lookups, and keywords Google 
 
 Trending Now rows have `resultType: "trending"` with `rank`, `title`, `approxTraffic`, `startedAt`, `pictureUrl` and `newsItems`.
 
+## Use it from AI agents (Claude, ChatGPT, Cursor)
+
+AI assistants can run this Actor as a tool through [Apify's MCP server](https://docs.apify.com/platform/integrations/mcp). Add this server URL to any MCP client:
+
+```
+https://mcp.apify.com?tools=rsiddiq95/google-trends-scraper
+```
+
+Then just ask, for example: *"Compare Google Trends interest in "air fryer" vs "slow cooker" in the US over the last 12 months."* Agent runs cost the same per result as runs from the console.
+
 ## How much does it cost to scrape Google Trends?
 
 This Actor uses pay-per-result pricing, so you only pay for keywords and trending searches that return data. See the **Pricing** tab for current prices. Apify's free plan includes monthly credit, enough to try the Actor on hundreds of keywords.
