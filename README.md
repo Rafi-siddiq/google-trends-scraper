@@ -94,6 +94,11 @@ This Actor uses pay-per-result pricing, so you only pay for keywords and trendin
 - Related topics are not included, because Google does not provide them to automated tools.
 - The Trending Now feed lists the top trending searches Google publishes for each country, usually about 10–20.
 
+## Works well with
+
+- **[Google Sheets Sync](https://apify.com/rsiddiq95/google-sheets-sync):** send each run's keywords to a Google Sheet automatically and keep a growing trends log without duplicates.
+- **[Google Ads Transparency Scraper](https://apify.com/rsiddiq95/google-ads-transparency-scraper):** see which competitors are advertising on the keywords that are trending.
+
 ## FAQ
 
 **Is it legal to scrape Google Trends?**
